@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: JH ALDT <j.henriquez@aledit.com>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>helloworld</id>
+    <name>Hello World</name>
+    <summary>Simple Hello World App</summary>
+    <description><![CDATA[An app that shows you a Hello World!]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="j.henriquez@aledit.com" >JH ALDT</author>
+    <namespace>HelloWorld</namespace>
+    <category>tools</category>
+    <bugs>https://github.com/jh-aldt/nextcloud-helloworld/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="28" max-version="28"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Hello World</name>
+            <route>helloworld.page.index</route>
+        </navigation>
+    </navigations>
+</info>
